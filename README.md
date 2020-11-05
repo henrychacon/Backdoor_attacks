@@ -4,4 +4,8 @@ It includes a list of Jupyter Notebooks produced to describe in a practical way,
 
 ## Selected list of publications:
 
-1. **Universal adversarial perturbation** by Moosavi-Dezfooli et al.: This paper is considered as the core idea behind _Universal Litmus Patterns_. It suggest the existence of a vector $v$ to be added to any image $x$ able to misclassify the model's output in a high probability. A new implementation of the algorithm in `PyTorch` is suggested and included in the Jupyter Notebook, since the original version of the code released by authors is develoved in `Tensorflow`. [Notebook link](https://github.com/henrychacon/Backdoor_attacks/tree/main/Universal_adversarial_perturbation).
+1. **Universal adversarial perturbation** by Moosavi-Dezfooli et al.: This paper is considered as the core idea behind _Universal Litmus Patterns_. It suggest the existence of a vector $v$ to be added to any image $x$ able to misclassify the model's output in a high probability. A new implementation of the algorithm in `PyTorch` is suggested and included in the Jupyter Notebook, since the original version of the code released by authors is develoved in `Tensorflow`. 
+
+[Notebook link](https://github.com/henrychacon/Backdoor_attacks/tree/main/Universal_adversarial_perturbation).
+
+2. Bla
