@@ -1,1 +1,1 @@
-$ Universal litmus patter
+# Universal litmus patter
