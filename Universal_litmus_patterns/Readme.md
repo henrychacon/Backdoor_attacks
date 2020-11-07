@@ -4,9 +4,7 @@ In the Notebook file, we reviewed the ULP method to detect backdoor attacks in C
 
 The original code shared by the authors is based on individual `.py` files. Therefore, in the file shared here, the most relevant ones to construct the classifier are adapted to be run in one file.
 
-
-
-
+In the folder `results` you can find pre-trained ULP models we run locally for `N=1, 5, 10`. So, you can use those directly in step 3 of the Notebook shared here. The ULP model constructed was tested over six models shared by the authors. Obtained results are the following:
 
 
 ++ Number of universal patterns (z) = 1. Pattern images:
