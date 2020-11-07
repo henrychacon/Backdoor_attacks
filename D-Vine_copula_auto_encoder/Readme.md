@@ -5,4 +5,14 @@ The input space complexity determines the model's capabilities to extract their 
 The suggested methodology is depicted in the following figure:
 <center><img src="DvineCopula.png" alt="D-vine copula AE" width="300"/></center>
 
-In the attached Jupyter Notebook, you can find the implemented code to run the following experiments:
+Initially, an Auto-Encoder (AE) is trained and the latent space h is used to estimate the joint distribution of the input by using the D-vine copula method. Then, the estimated distribution is used as a generative process to reproduce samples from the latent space. In the attached Jupyter Notebook, you can find the implemented code to run the following experiments:
+
+1. Generative process for a clean data set (MNIST).
+2. Generative process for a backdoor data set.
+3. Distribution of the latent space for a backdoor model produced from a clean data set. In this case, the trigger pattern is produced by the distribution despite the data used was clean.
+4. Analysis of pair marginals distributions from the clean and backdoor latent space to compare the changes in the space induced by backdoor triggers.
+5. Entropy and KullbackLeibler divergence between clean and backdoor models.
+
+Evidence of trigger pattern reproduced by the D-vine copula of a backdoor model constructed from clean data is the following:
+<center><img src="backdoor_evidence.png" alt="D-vine copula AE" width="300"/></center>
+
