@@ -14,5 +14,5 @@ Initially, an Auto-Encoder (AE) is trained and the latent space h is used to est
 5. Entropy and KullbackLeibler divergence between clean and backdoor models.
 
 Evidence of trigger pattern reproduced by the D-vine copula of a backdoor model constructed from clean data is the following:
-<center><img src="backdoor_evidence.png" alt="D-vine copula AE" width="300"/></center>
+<center><img src="backdoor_evidence.png" alt="D-vine copula AE" width="600"/></center>
 
