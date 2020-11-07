@@ -9,3 +9,6 @@ It includes a list of Jupyter Notebooks produced to describe in a practical way,
 
 2. **Universal Litmus Patterns** by Kolouri et at.: Authors suggest a procedure to evaluate if a model was attacked during the training process (binary descriminiator). The classifier is constructed based on 400 clean models and 400 backdoors in terms of an unique universal test pattern. Which means, the ULP is indepedent from eather the training or testing set. [Notebook link](https://github.com/henrychacon/Backdoor_attacks/tree/main/Universal_litmus_patterns).
 
+3. **Fingerprinting the Latent Space Distribution for Studying the Backdoor Attacks using D-vine copula auto-encoder (DCAE)**. In this Jupyter Notebook we present the evidence that backdoor attacks patterns are stamped in the memory of the model's parameters. Two main results are presented here. First one, triggers can be reproduced in the latent space of a model even if only clean samples are available. Second, backdoor attacks increase the entropy of the latent space. The used architecture is an auto-encoder (AE) for the MNIST data set and the D-vine copula method suggested to estimate the distribution in the reduced space. 
+[Notebook link](https://github.com/henrychacon/Backdoor_attacks/tree/main/D-Vine_copula_auto_encoder).
+
