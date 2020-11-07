@@ -8,7 +8,7 @@ In the folder `results` you can find pre-trained ULP models we run locally for `
 
 
 ### Number of universal patterns (z) = 1. Pattern images:
-![Image1](ulp_patterns_N1.png)
+<img src="ulp_patterns_N1.png" alt="drawing" width="400"/>
    1. Model: Clean, ULP detection: Clean 0.241, Backdoor 0.759
    2. Model: Clean, ULP detection: Clean 0.010, Backdoor 0.990
    3. Model: Clean, ULP detection: Clean 0.997, Backdoor 0.003
